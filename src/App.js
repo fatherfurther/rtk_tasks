@@ -22,7 +22,7 @@ function App() {
         <TaskInput />
         <TaskList />
       </div>
-      <div className={styles.appDetails}>
+      <div>
         <TaskDetails />
       </div>
     </div>

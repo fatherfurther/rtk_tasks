@@ -1,0 +1,35 @@
+.button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 13px;
+  color: #FFFFFF;
+  line-height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+}
+.button--primary {
+  background: #000000;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.button--secondary {
+  background: #000000;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.button--small {
+  width: 100px;
+  height: 35px;
+}
+.button--large {
+  width: 328px;
+  height: 52px;
+}

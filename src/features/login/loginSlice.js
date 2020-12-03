@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit"
 import axios from "axios"
 
-const apiUrl = "http://localhost:8000/"
+const apiUrl = "http://192.168.1.9:8000/"
 const token = localStorage.localJWT
 
 export const fetchAsyncLogin = createAsyncThunk("login/post", async (auth) => {
